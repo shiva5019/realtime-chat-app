@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #1a1a1a;
+}
+
+:root {
+  --primary: #4f46e5;
+  --primary-dark: #4338ca;
+  --bg-light: #f0f2f5;
+  --bg-white: #ffffff;
+  --bg-sidebar: #1f2937;
+  --text-light: #6b7280;
+  --border: #e5e7eb;
+  --online: #22c55e;
+  --offline: #9ca3af;
+  --bubble-mine: #4f46e5;
+  --bubble-theirs: #e5e7eb;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
+}
